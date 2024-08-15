@@ -1,0 +1,16 @@
+echo '<pre>';https://github.com/StukaNad/local/tree/main/local/templates/start/local/templates/start
+print_r($arResult['ITEMS']);
+echo '</pre>';
+
+
+init.php
+function dump($result)
+{
+    global $USER;
+    if($USER->isAdmin());
+    {
+    echo '<pre>';
+    print_r($arResult['ITEMS']);
+    echo '</pre>';
+    }
+}
